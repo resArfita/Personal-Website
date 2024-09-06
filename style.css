@@ -324,3 +324,44 @@ footer .nav-links{
     margin: 0 0 2rem;
 }
 /*Footer END*/
+
+@media (max-width:1024px){
+    /*About Section*/
+    .about-container{
+        gap: 30px;
+    }
+
+    .basic-edu{
+        gap: 20px;
+    }
+
+    /*Skills section*/
+    .skill-container{
+        gap: 30px;
+    }
+
+    /*Project Section*/
+    .project-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:991px){
+    /*Skills section*/
+    .skill-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    /*Project Section*/
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+}
