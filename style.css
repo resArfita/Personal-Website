@@ -351,17 +351,148 @@ footer .nav-links{
     .skill-container{
         grid-template-columns: 1fr;
     }
+
+    /*Nav*/
+    .logo{
+        display: none;
+    }
+
+    .nav-links{
+        justify-content: center;
+        width: 100%;
+    }
 }
 
-@media (max-width:768px){
+@media (max-width:480px){
     h1{
         font-size: 38px;
     }
     h2{
         font-size: 26px;
     }
+
+    a{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    /*Header Section*/
+    .header-container{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .header-left{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .header-right{
+        margin: 0  100px;
+    }
+
+    /*About Section*/
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+
+    .about-left{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .basic-edu{
+        gap: 10px;
+    }
+
+    /*Skills Section*/
+    .skill-box{
+        padding: 10px;
+    }
+
+    .skill{
+        gap: 20px;
+    }
+
+    .ex-div{
+        gap: 10px;
+    }
+
     /*Project Section*/
     .project-container{
         grid-template-columns: 1fr;
     }
+}
+
+@media (max-width:360px){
+    /*Nav Links*/
+    .nav-links{
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    footer{
+        padding: 0 0 20px 0;
+        width: 100%; 
+        margin: 50px 0 0 30px;
+    }
+
+    footer .nav-links{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    /*Skills Section*/
+    .skill-box{
+        padding: 40px;
+    }
+
+    .skill{
+        gap: 20px;
+    }
+
+    /*Project Section*/
+    .project-container{
+        grid-template-columns: 1fr;
+        padding: 20px;
+        margin-left: 50px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+    h2{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    .contact-container{
+        width: 100%;
+        padding: 20px;
+        margin: 0 0 0 35px;
+    }
+
+    .header-left{
+        width: 60%;
+        margin-left: 70px;
+    }
+
+    .header-right{
+        margin: 0 50px;
+    }
+
+    .basic-edu{
+        gap: 5px;
+    }
+
+    .edu-box{
+        margin: 0 15px;
+    }
+
 }
