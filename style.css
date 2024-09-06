@@ -229,6 +229,10 @@ header{
 .edu-box img{
     margin: auto;
 }
+
+.about-right .no-decoration{
+    text-decoration: none;
+}
 /*About Section END*/
 
 /*Skills Section*/
