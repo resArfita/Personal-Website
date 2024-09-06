@@ -15,7 +15,7 @@
     --color-black: #000000;
     --color-white: #ffffff;
     --color-dark: #353535;
-    --color-dark-variant: #555555;
+    --color-dark-variant: #46769e;
     --transition: .1s ease;
 }
 
@@ -60,7 +60,7 @@ p{
 }
 
 a{
-    font-size: 24px;
+    font-size: 20px;
     color: var(--color-black);
     text-decoration-color: var(--color-white);
     transition: var(--transition);
@@ -135,7 +135,7 @@ nav{
     width: 100%;
     display: grid;
     place-items: center;
-    background: #b1abff;
+    background: var(--color-white);
     z-index: 1;
 }
 
@@ -232,6 +232,10 @@ header{
 /*About Section END*/
 
 /*Skills Section*/
+section{
+    position: relative;
+}
+
 .skill-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -280,6 +284,10 @@ header{
     border-radius: 30px;
     margin: 0 0 1rem;
 }
+
+.project .btn{
+    margin: 10px auto;
+}
 /*Portfolio Section END*/
 
 /*Contact Section*/
@@ -299,3 +307,16 @@ header{
     gap: .5rem;
 }
 /*Contact Section END*/
+
+/*Footer*/
+footer{
+    margin: 9rem 0 0 0;
+    padding: 30px;
+    text-align: center;
+}
+
+footer .nav-links{
+    justify-content: center;
+    margin: 0 0 2rem;
+}
+/*Footer END*/
