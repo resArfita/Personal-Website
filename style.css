@@ -281,3 +281,21 @@ header{
     margin: 0 0 1rem;
 }
 /*Portfolio Section END*/
+
+/*Contact Section*/
+.contact-container{
+    max-width: 30rem;
+    border: 1px solid var(--color-dark-variant);
+    padding: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email, .linkedin, .github{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+/*Contact Section END*/
